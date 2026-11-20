@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Tea Corner | Fresh Chai & Hot Snacks in Domlur, Bengaluru</title>
+  <meta name="description" content="Visit Amit Tea Corner on Service Road, Domlur 1st Stage, Bengaluru for fresh Ginger Tea, Bread Bonda, Potato Bonda, Samosas, and Bread Pakora. Open daily 8 AM - 10 PM." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Outfit:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container navbar">
+      <a href="#home" class="logo">
+        <span class="logo-icon">☕</span>
+        <span>Amit Tea Corner</span>
+      </a>
+
+      <button class="mobile-menu-btn" id="menuToggle" aria-label="Toggle Menu">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+919876543210" class="btn btn-primary">📞 Call Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="badge">Domlur 1st Stage, Bengaluru</span>
+        <h1>Fresh Ginger Tea & Hot Evening Snacks</h1>
+        <p>
+          Your neighborhood chai adda right opposite Domlur Post Office. Drop by for steaming cups of crushed ginger chai and crispy, freshly fried South Indian snacks.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">View Our Menu</a>
+          <a href="tel:+919876543210" class="btn btn-outline">📞 Call Now</a>
+        </div>
+
+        <div class="hero-highlights">
+          <span>🕗 Open Daily: 8:00 AM – 10:00 PM</span>
+          <span>💵 Cash Only</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <h3>Today's Stall Favorites</h3>
+        <ul class="special-list">
+          <li>
+            <span><strong>Special Ginger Tea</strong></span>
+            <span class="special-tag">Bestseller</span>
+          </li>
+          <li>
+            <span><strong>Crispy Bread Bonda</strong></span>
+            <span class="special-tag">Hot & Fresh</span>
+          </li>
+          <li>
+            <span><strong>Aloo / Potato Bonda</strong></span>
+            <span class="special-tag">Must Try</span>
+          </li>
+          <li>
+            <span><strong>Punjabi Samosa</strong></span>
+            <span class="special-tag">Evening Hit</span>
+          </li>
+          <li>
+            <span><strong>Stuffed Bread Pakora</strong></span>
+            <span class="special-tag">Classic</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Menu</h2>
+        <p>Freshly brewed tea and hot snacks made throughout the day at pocket-friendly prices.</p>
+      </div>
+
+      <div class="menu-tabs" role="tablist">
+        <button class="tab-btn active" data-category="all">All Items</button>
+        <button class="tab-btn" data-category="tea">Tea & Beverages</button>
+        <button class="tab-btn" data-category="snacks">Hot Snacks</button>
+        <button class="tab-btn" data-category="meals">Quick Meals</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- Populated by script.js -->
+      </div>
+
+      <div class="cash-notice">
+        💵 Note: We currently accept <strong>Cash Only</strong> at the counter. Please carry small change for faster service!
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container about-grid">
+      <div>
+        <span class="badge">Our Story</span>
+        <h2>Simple Ingredients, Authentic Chai</h2>
+        <p class="about-text">
+          Located right on the Service Road in Domlur 1st Stage opposite the Post Office, <strong>Amit Tea Corner</strong> is built on a simple promise: serve strong, aromatic tea and hot snacks that feel like home.
+        </p>
+        <p class="about-text">
+          Whether you are starting your morning commute at 8 AM, taking a quick office break, or catching up with friends over evening rain, our kettle is always boiling and our snacks come straight out of the kadhai.
+        </p>
+
+        <div class="about-features">
+          <div class="feature-item">
+            <strong>Fresh Crushed Ginger</strong>
+            <span>Real ginger grated into every batch of chai.</span>
+          </div>
+          <div class="feature-item">
+            <strong>Fried Fresh Daily</strong>
+            <span>Hot bondas, pakoras, and samosas made in small batches.</span>
+          </div>
+          <div class="feature-item">
+            <strong>Prime Domlur Spot</strong>
+            <span>Easy stop right opposite Domlur Post Office.</span>
+          </div>
+          <div class="feature-item">
+            <strong>14 Hours Open</strong>
+            <span>Serving you 8:00 AM to 10:00 PM, all 7 days.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box">
+        <h3>Why Locals Love Stopping By</h3>
+        <p class="about-quote">
+          "Nothing beats a cutting ginger tea paired with a hot Bread Bonda from Amit Tea Corner after work in Domlur."
+        </p>
+        <ul class="about-checklist">
+          <li>✓ Quick counter service for busy commuters</li>
+          <li>✓ Clean, hygienic preparation area</li>
+          <li>✓ Honest, everyday neighborhood pricing</li>
+          <li>✓ Signature homemade green & tamarind chutneys</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Location Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Visit Amit Tea Corner</h2>
+        <p>Drop by for a hot cup of chai or call ahead for bulk snack orders.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="info-group">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>Service Road, Domlur 1st Stage,<br>Opposite Domlur Post Office,<br>Bengaluru, Karnataka 560071</p>
+            </div>
+          </div>
+
+          <div class="info-group">
+            <div class="info-icon">🕒</div>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Monday – Sunday (All Days)<br><strong>8:00 AM – 10:00 PM</strong></p>
+            </div>
+          </div>
+
+          <div class="info-group">
+            <div class="info-icon">💵</div>
+            <div>
+              <h4>Payment Method</h4>
+              <p><strong>Cash Only</strong> (No UPI / Cards)</p>
+            </div>
+          </div>
+
+          <div>
+            <a href="tel:+919876543210" class="btn btn-primary btn-full">
+              📞 Call Now (+91 98765 43210)
+            </a>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            title="Amit Tea Corner Location Map"
+            src="https://google.com"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <h3>☕ Amit Tea Corner</h3>
+      <p>Service Road, Domlur 1st Stage, Opposite Domlur Post Office, Bengaluru</p>
+      <p class="footer-sub">Open All Days: 8:00 AM – 10:00 PM • Cash Only</p>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Call Button -->
+  <a href="tel:+919876543210" class="floating-call">📞 Call Now</a>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
